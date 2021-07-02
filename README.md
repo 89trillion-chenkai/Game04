@@ -8,7 +8,7 @@
 ```
 ｜——Scripts   
 ｜  ｜——AniamtionChange  
-｜  ｜  ｜——AnimationChangeControl     #数据管理       
+｜     ｜——AnimationChangeControl     #数据管理       
 ｜    
 ```
 ## 3.代码逻辑
@@ -17,4 +17,4 @@
 
 ## 4.存储设计
 
-士兵模型预制体
+士兵模型预为制体
