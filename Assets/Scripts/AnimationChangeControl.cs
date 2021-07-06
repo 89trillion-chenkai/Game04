@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class AnimationChangeControl : MonoBehaviour
 {
-    private Animator animator;
-    private KeyCode lastButton;
-    
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
-    
+    [SerializeField]
+    private Animator animator; //小兵的动画系统，需拖拽
+    private KeyCode lastButton; //记录上次的按钮
+
     void Update()
     {
         if (!Input.GetKeyDown(lastButton)) //如果和上次按键不同才进入
